@@ -1,0 +1,7 @@
+# 统一行尾，防止 Windows 上 clone 后 .sh 变成 CRLF 导致 WSL bash 报错
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.md text
